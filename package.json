@@ -1,0 +1,41 @@
+{
+  "name": "oauth2-resource-public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3203317/oauth2-resource-public.git"
+  },
+  "author": "huangxin <3203317@qq.com>",
+  "license": "ISC",
+  "dependencies": {
+    "opena": "0.1.18",
+    "speedt-utils": "0.1.70",
+    "speedt-redis": "0.1.60",
+    "speedt-mysql": "0.1.62",
+    "iconv-lite": "0.4.13",
+    "bufferhelper": "0.2.1",
+    "connect": "3.5.0",
+    "utils-merge": "1.0.0",
+    "eventproxy": "0.3.5",
+    "underscore": "1.8.3",
+    "redis": "2.6.3",
+    "mysql": "2.12.0",
+    "mongodb": "1.4.20",
+    "mongoose": "3.8.19",
+    "velocityjs": "0.4.6",
+    "connect-mongo": "0.4.1",
+    "connect-flash": "0.1.1",
+    "node-uuid": "1.4.1",
+    "async": "2.1.4",
+    "log4js": "0.6.21"
+  },
+  "bugs": {
+    "url": "https://github.com/3203317/oauth2-resource-public/issues"
+  },
+  "homepage": "https://github.com/3203317/oauth2-resource-public#readme"
+}
