@@ -27,6 +27,7 @@ pro.params = function(req, res, next){
 };
 
 pro.exec = function(req, res, next){
+  let query = URL.parse(req.url, true).query;
   // var result = {
   //   data: {
   //     today: !0,
@@ -35,7 +36,7 @@ pro.exec = function(req, res, next){
   // };
   // res.send(result);
 
-  req.pipe(request('http://hq.sinajs.cn/list=sh601006').on('error', err => {
+  req.pipe(request('http://hq.sinajs.cn/list='+ query.list).on('error', err => {
     next(err);
   })).pipe(res);
 };
