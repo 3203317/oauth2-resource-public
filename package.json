@@ -13,6 +13,7 @@
   "author": "huangxin <3203317@qq.com>",
   "license": "ISC",
   "dependencies": {
+    "request": "2.81.0",
     "opena": "0.1.18",
     "speedt-utils": "0.1.70",
     "speedt-redis": "0.1.60",
